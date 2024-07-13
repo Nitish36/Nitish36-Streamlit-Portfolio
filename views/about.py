@@ -62,3 +62,22 @@ with col5:
 with col6:
     st.write("Aug. 2019 – May 2023")
     st.write("Bangalore,Karnataka")
+    
+
+# --- Certification and Achievements ---
+st.write("\n")
+st.subheader("Certification and Achievements", anchor=False)
+col7, col8 = st.columns(2, gap="large", vertical_alignment="center")
+with col7:
+    st.subheader('Certification')
+    git = '[@Git & Github](https://drive.google.com/file/d/1l5aPNrLRrULfYxfQ_CJUSBzF1l3Bw0Dk/view?usp=drive_link)'
+    st.markdown(git, unsafe_allow_html=True)
+    excel = '[@Excel Dashboard](https://drive.google.com/file/d/13cgZmQkKI4OTrgoT0_HQYz_p1GJo2i2G/view?usp=drive_link)'
+    st.markdown(excel, unsafe_allow_html=True)
+    bi = '[@Power BI](https://www.udemy.com/certificate/UC-2b30f34b-7208-4afd-b9a1-5ee85f96ad83/)'
+    st.markdown(bi, unsafe_allow_html=True)
+
+with col8:
+    st.subheader('Achievements')
+    st.write('Made 4 valid PR contributions on github repositories during the Hacktoberfest')
+    st.write('Created and published 4 APIs on RapidAPI.com using FastAPI')
