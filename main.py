@@ -35,7 +35,7 @@ img[data-testid="stLogo"] {
     height: 10.5rem;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 500px) {
     img[data-testid="stLogo"] {
         height: 4rem;  /* Adjust the height for smaller screens */
     }
