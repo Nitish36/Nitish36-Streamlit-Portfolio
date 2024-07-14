@@ -62,7 +62,7 @@ with col5:
 with col6:
     st.write("Aug. 2019 – May 2023")
     st.write("Bangalore,Karnataka")
-    
+
 
 # --- Certification and Achievements ---
 st.write("\n")

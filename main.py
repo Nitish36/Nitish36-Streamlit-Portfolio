@@ -34,6 +34,12 @@ st.markdown("""
 img[data-testid="stLogo"] {
     height: 10.5rem;
 }
+
+@media (max-width: 767px) {
+    img[data-testid="stLogo"] {
+        height: 6rem;  /* Adjust the height for smaller screens */
+    }
+}
 </style>
 """, unsafe_allow_html=True)
 
