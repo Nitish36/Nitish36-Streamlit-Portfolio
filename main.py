@@ -40,6 +40,18 @@ img[data-testid="stLogo"] {
         height: 6rem;  /* Adjust the height for smaller screens */
     }
 }
+
+@media (max-width: 580px) {
+    img[data-testid="stLogo"] {
+        height: 6rem;  /* Adjust the height for smaller screens */
+    }
+}
+
+@media (max-width: 670px) {
+    img[data-testid="stLogo"] {
+        height: 7rem;  /* Adjust the height for smaller screens */
+    }
+}
 </style>
 """, unsafe_allow_html=True)
 
