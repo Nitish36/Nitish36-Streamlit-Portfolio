@@ -3,7 +3,7 @@ import streamlit as st
 col1, col2 = st.columns(2, gap="large", vertical_alignment="center")
 
 with col1:
-    st.image("assets/weather.png")
+    st.image("assets/weather.PNG")
     st.write("Live Weather Data ETL")
     st.write("Tech Stack: Python,Prefect,Selenium, MySQL,Google Sheets,PowerBI")
     st.write(
